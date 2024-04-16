@@ -51,52 +51,11 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           className="w-2/3 max-lg:w-full flex flex-col gap-5"
         >
           <h1 className="text-[46px] leading-none max-md:text-4xl font-semibold">
-            Tuning in to what really matters
+          Patnan Investment's Comprehensive Services
           </h1>
           <div className="text-xl flex flex-col gap-3">
             <p>
-              We believe that technology and human-centered design are
-              revolutionizing brand experiences. Remarkable innovations are
-              allowing products to become more sentient and connected, enabling
-              greater connection between people. Our role is to ensure that each
-              product experience is attuned to people’s needs and relevant to
-              the rhythm and habits of their daily lives. Through first and
-              secondary research, we identify what will really matter to users
-              and we never let go of the vision that inspires great products.
-            </p>
-            <p>
-              Test your ideas with minimal risk. Test even the most complex
-              ideas, involving emerging technologies – like blockchain – with
-              the help of our expert Outsourceo team. We’ll help you with
-              predictions, roadmapping and post-PoC Development analysis, to
-              identify the best-fit solution with minimal financial risk.
-            </p>
-            <p>
-              We help companies assess their skills and choose a new direction
-              which utilizes the talents of the team and resources most
-              productively.
-            </p>
-            <p>
-              As consumers have more and more product choices, the role of
-              design to bring clarity and relevance has never been more
-              necessary. Design will continue to be the significant difference
-              maker and the reason for choosing one product or experience over
-              another. On every product we look through the eyes of the user,
-              studying the experience critically and empathetically. Our
-              creative response combines strategy with execution to deliver
-              beautiful, innovative and differentiated design.
-            </p>
-            <p>
-              Our team of software experts will provide a comprehensive project
-              evaluation, allowing you to develop your roadmap for success that
-              maximises the efficiency of your future projects.
-            </p>
-            <p>
-              When it comes to encapsulating technical innovation in a form that
-              chimes with an end user, our early involvement, often before the
-              science leaves the bench, can help to ensure that the human
-              factors as well as the production design issues are considered at
-              the optimum stage in the process.
+              {breif}
             </p>
           </div>
           <div className="mt-10">
@@ -109,19 +68,16 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                   <AccordionButton
                     fontSize={"2xl"}
                     _hover={{ backgroundColor: "transparent" }}
-                    _expanded={{ color: "#ef4444" }}
+                    _expanded={{ color: "#3cb371" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How does SAASworld make money?
+                    How do I know if a property has a clear title deed?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                At Patnan Investment, we conduct thorough due diligence on all properties we sell to ensure clear and legally verified title deeds. Our team of legal experts rigorously examines the property's documentation to confirm its ownership status and compliance with regulatory requirements.
                 </AccordionPanel>
               </AccordionItem>
 
@@ -130,19 +86,16 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                   <AccordionButton
                     fontSize={"2xl"}
                     _hover={{ backgroundColor: "transparent" }}
-                    _expanded={{ color: "#ef4444" }}
+                    _expanded={{ color: "#3cb371" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      What is the Top Rated program?
+                    Are there any additional costs associated with purchasing land?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                In addition to the property's purchase price, there may be additional costs such as legal fees, stamp duty, land registration fees, and taxes. Our team provides transparent guidance on all associated costs upfront, ensuring clients are fully informed before making any commitments.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem className="border-none box-shadow p-6">
@@ -150,20 +103,16 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                   <AccordionButton
                     fontSize={"2xl"}
                     _hover={{ backgroundColor: "transparent" }}
-                    _expanded={{ color: "#ef4444" }}
+                    _expanded={{ color: "#3cb371" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      What’s the difference between finding clients online,
-                      versus locally?
+                    Can I visit the property before making a purchase decision?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Absolutely! We encourage clients to schedule site visits to inspect the properties of interest firsthand. Our experienced agents accompany clients on site visits, providing detailed information and addressing any queries to help them make informed decisions.
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem className="border-none box-shadow p-6">
@@ -171,19 +120,16 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
                   <AccordionButton
                     fontSize={"2xl"}
                     _hover={{ backgroundColor: "transparent" }}
-                    _expanded={{ color: "#ef4444" }}
+                    _expanded={{ color: "#3cb371" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How does SAASworld make money?
+                    What happens after I purchase a property from Patnan Investment?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                Our commitment to client satisfaction extends beyond the transaction. After purchasing a property from us, our team remains available to provide ongoing support and assistance. Whether it's help with property documentation, development plans, or any post-purchase queries, we're here to ensure a seamless and rewarding experience for our clients.
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
@@ -203,19 +149,19 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             <div>
               <FaEnvelope className="text-red-500" />
             </div>
-            <p>Office # 420 DHA Phase 90, Karachi, PK</p>
+            <p>patnaninvestment@gmail.com</p>
           </div>
           <div className="flex  gap-3 text-xl items-center">
             <div>
               <FaPhone className="rotate-90 text-red-500" />
             </div>
-            <p>+92 39283848238</p>
+            <p>+2547 1781 8598</p>
           </div>
           <div className="flex  gap-3 text-xl items-center">
             <div>
               <FaMapMarkerAlt className="text-red-500" />
             </div>
-            <p>information@office.com</p>
+            <p>Ground Floor, Saika, Near Full Gospel Church, Kangundo Road, Nairobi, Kenya</p>
           </div>
           <Link
             to="/contact"

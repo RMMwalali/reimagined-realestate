@@ -51,6 +51,13 @@ const Product = ({
     }, 400);
   };
 
+  const openWhatsApp = () => {
+    const message = "Hi Patnan Investment! 🏡 I'm interested in a site visit. Thanks! 🌟";
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappLink = `https://wa.me/254741370283?text=${encodedMessage}`;
+    window.open(whatsappLink, "_blank");
+};
+
   useEffect(() => {
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
   }, [cartItems]);
@@ -104,61 +111,24 @@ const Product = ({
             viewport={{ once: true, amount: 0.2 }}
             className="sticky max-lg:static top-32 flex flex-col gap-4"
           >
-            <h1 className="text-5xl font-semibold">House in {title}</h1>
-            <p className="details text-2xl">{descr}</p>
-            <div>
-              <h2 className="text-xl text-red-500 font-semibold">Price:</h2>
-              <h2 className="text-2xl mt-2 font-semibold">
-                PKR {formatCompactNumber(price)}/Month
-              </h2>
-            </div>
+            <h1 className="text-4xl font-semibold">Property in {title}</h1>
+            <p className="details text-xl">{descr}</p>
             <div className="flex flex-col gap-2">
-              <h2 className="text-xl text-red-500 font-semibold">Quantity</h2>
-
-              <NumberInput
-                borderColor={"#696969"}
-                focusBorderColor="#a7a7a7"
-                _placeholder={{ color: "#696969" }}
-                variant={"flushed"}
-                min={1}
-                id="inp"
-                size={"lg"}
-                className="mt-4 max-lg:w-72 max-sm:w-full"
-                value={inpt}
-                onChange={(e) => {
-                  setInpt(Number(e));
-                }}
-              >
-                <NumberInputField fontSize={"xl"} paddingX={"2"} />
-                <NumberInputStepper>
-                  <NumberIncrementStepper />
-                  <NumberDecrementStepper />
-                </NumberInputStepper>
-              </NumberInput>
               <Button
-                // _hover={{ borderColor: "#d5515e" }}
-                _hover={{ backgroundColor: "white", color: "#d5515e" }}
-                backgroundColor={"#d5515e"}
+                // _hover={{ borderColor: "#3cb371" }}
+                _hover={{ backgroundColor: "white", color: "#3cb371" }}
+                backgroundColor={"#3cb371"}
                 color={"white"}
-                borderColor={"#d5515e"}
+                borderColor={"#3cb371"}
                 variant={"outline"}
                 size={"lg"}
                 isLoading={btnLoader}
                 loadingText={"Adding to Cart"}
-                onClick={handleAddToCart}
+                onClick={openWhatsApp}
                 className="mt-4 max-lg:w-72 max-sm:w-full"
               >
-                Add to Cart
+                 Book A Site Visit
               </Button>
-            </div>
-            <div className="flex text-xl flex-col gap-2">
-              <h2 className=" text-red-500 font-semibold">Details</h2>
-              <p>{descr}</p>
-              <ul className="list-disc list-inside ml-2">
-                {details.map((e, i) => {
-                  return <li key={i}>{e}</li>;
-                })}
-              </ul>
             </div>
           </motion.div>
         </div>
@@ -176,20 +146,20 @@ const Product = ({
         >
           Just For You
         </motion.h1>
-        <div className="grid grid-cols-2 grid-rows-3 max-sm:grid-cols-1 max-sm:grid-rows-5 gap-5 mt-10">
+        <div className="grid grid-cols-2 grid-rows-1 max-sm:grid-cols-1 max-sm:grid-rows-5 gap-5 mt-2">
           {otherItems.map((e, i) => {
             return (
               <div
                 key={i}
                 className={
-                  i === otherItems.length - 1
+                  i === otherItems.length
                     ? "col-span-2 max-sm:col-auto"
                     : ""
                 }
               >
                 <ExculusivePropertyCard
                   imgSrc={e.mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Property in "}
                   titlePart2={e.name}
                   pricing={e.price}
                   href={e.id}

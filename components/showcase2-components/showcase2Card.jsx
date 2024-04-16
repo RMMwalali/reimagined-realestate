@@ -3,7 +3,16 @@ import { Link } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
 import { motion } from "framer-motion";
 import { animationVariants } from "../../constants/animationVariants";
+
 const Showcase2Card = ({ src, href, title }) => {
+  const handleSendMessage = () => {
+    const propertyTitle = encodeURIComponent(title); // Encode title for URL
+    const message = `Hey! I'm interested in buying a property in ${propertyTitle}. Can you provide more details?`;
+
+    const whatsappLink = `https://wa.me/254741370283?text=${message}`;
+    window.open(whatsappLink, "_blank");
+  };
+
   return (
     <motion.div
       initial="initial"
@@ -13,16 +22,10 @@ const Showcase2Card = ({ src, href, title }) => {
       style={{ height: 380 }}
       className="relative w-full"
     >
-      <div className="z-40 w-full h-full top-4 opacity-0 hover:opacity-100 transition-all duration-500 max-sm:top-2 max-sm:right-2 right-4 absolute pt-72 pl-10 bg-red-500">
-        <Link
-          onClick={scrollToTop}
-          to={href}
-          className="text-3xl text-left w-fit text-white hover:text-black transition-all cursor-pointer "
-        >
-          {title}
-        </Link>
-      </div>
-      <img className="w-full h-full object-cover" src={src} alt="img" />
+      
+      <Link className="cursor-pointer" onClick={handleSendMessage}>
+        <img className="w-full h-full object-cover" src={src} alt="img" />
+      </Link>
     </motion.div>
   );
 };

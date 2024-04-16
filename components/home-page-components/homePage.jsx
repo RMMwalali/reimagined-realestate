@@ -41,7 +41,7 @@ const HomePage = () => {
   };
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex bg-[url('/hero-bg-image.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
+      <div className="  flex bg-[url('/herobg.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -54,16 +54,15 @@ const HomePage = () => {
             variants={animationVariants.fadeLeft}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-4xl max-w-lg "
           >
-            Discover Most Suitable Property
+            Discover Your Perfect Property
           </motion.h1>
           <motion.p
             variants={animationVariants.fadeLeft}
             className="text-xl max-lg:mx-auto max-w-md  "
           >
-            Our mission is to engage in issues that are of concern to
-            individuals
+            Our mission is to empower dreams through unparalleled real estate solutions
           </motion.p>
-          <motion.div
+          {/* <motion.div
             variants={animationVariants.fadeLeft}
             id="search-inp"
             className="max-w-xl max-lg:mx-auto max-lg:w-full relative"
@@ -89,33 +88,33 @@ const HomePage = () => {
               styles={{ top: 9.5 }}
               onClick={handleSearch}
             />
-          </motion.div>
+          </motion.div> */}
           <motion.div
             variants={animationVariants.fadeLeft}
             className="flex max-lg:flex-col max-lg:items-center gap-10 w-full justify-between items-end mt-4"
           >
             <div className="flex gap-12">
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">19K+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-4xl title-font font-bold">50+</h2>
+                <p className="text-lg">Properties Sold</p>
               </div>
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">5000+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-4xl title-font font-bold">15+</h2>
+                <p className="text-lg">Years in Business</p>
               </div>
             </div>
             <div className="flex gap-12 max-sm:flex-wrap  justify-center">
-              <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/grafton.png" alt="img" />
-                <h2 className="text-2xl">Grafton</h2>
+              <div className="flex justify-start items-center gap-1">
+                <img className="w-9" src="/compass.png" alt="img" />
+                <h2 className="text-2xl">Joska</h2>
               </div>
-              <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/lighthouse.png" alt="img" />
-                <h2 className="text-2xl">Lighthouse</h2>
+              <div className="flex justify-start items-center gap-1">
+                <img className="w-9" src="/mappin.png" alt="img" />
+                <h2 className="text-2xl">Malaa</h2>
               </div>
-              <div className="flex justify-start items-center gap-2">
-                <img className="w-9" src="/tundratown.png" alt="img" />
-                <h2 className="text-2xl">Tundratown</h2>
+              <div className="flex justify-start items-center gap-1">
+                <img className="w-9" src="/building.png" alt="img" />
+                <h2 className="text-2xl">ABC</h2>
               </div>
             </div>
           </motion.div>
@@ -137,8 +136,8 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-                We build quality real estate projects
-                <span className=" text-red-500 title-font "> since 1998</span>
+                Dedicated to delivering top-notch quality services
+                <span className=" text-red-500 title-font "> since 2009</span>
               </h2>
             </motion.div>
           </div>
@@ -150,10 +149,8 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                itaque nesciunt similique dolore illum eaque repellat eligendi
-                nemo odit fugit in, impedit ad excepturi architecto dolores
-                quaerat accusantium! Sapiente, repellendus!
+                Welcome to Patnan Investment, where your real estate dreams find their perfect match. Since our establishment in 2009, we've been dedicated to enhancing your investments and delivering unparalleled value every step of the way.
+                At the heart of our business lies a commitment to professionalism, integrity, and transparency.
               </p>
               <Link onClick={scrollToTop} to={"/about"}>
                 <Button
@@ -184,9 +181,7 @@ const HomePage = () => {
               What we do
             </h2>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-              urna in elit amet blandit enim lacinia. Tellus leo felis et vel
-              eget maecenas.
+             Whether you're seeking prime plots of land with title deeds along the upcoming Greater Eastern Bypass or serene, modern apartments in the bustling Saika region, we're here to connect you with affordable properties that exceed your expectations.Our properties in Joska, Malaa, KBC, and Solace are more than just addresses; they're opportunities for financial growth and comfortable living. Just 15 kilometers from Nairobi CBD and 8 kilometers from the Eastern Bypass, our locations offer convenience without compromising on tranquility or modernity.
             </p>
             <Link onClick={scrollToTop} to={"/about"}>
               <button
@@ -207,19 +202,19 @@ const HomePage = () => {
           >
             <div className="flex flex-col gap-7 ">
               <WhatWeDoCard
-                iconSrc={"/icons/reliability.png"}
-                iconAlt={"reliability"}
-                title={"Reliability"}
+                iconSrc={"/handshake.png"}
+                iconAlt={"integrity"}
+                title={"Integrity"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "With unwavering integrity as our foundation, we build lasting relationships based on mutual respect and accountability."
                 }
               />
               <WhatWeDoCard
-                iconSrc={"/icons/communication.png"}
-                iconAlt={"communication"}
-                title={"communication"}
+                iconSrc={"/glass.png"}
+                iconAlt={"transparency"}
+                title={"Transparency"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "At Patnan Investment, we believe in open communication and full transparency throughout the real estate process."
                 }
               />
             </div>
@@ -229,11 +224,11 @@ const HomePage = () => {
                 className="max-md:hidden rounded-lg w-80 bg-gradient-to-t from-white to-transparent"
               ></div>
               <WhatWeDoCard
-                iconSrc={"/icons/quality-first.png"}
-                iconAlt={"quality-first"}
-                title={"Quality First"}
+                iconSrc={"/briefcase.png"}
+                iconAlt={"professionalism"}
+                title={"Professionalism"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "We believe in conducting our business with the utmost professionalism at every step of the way."
                 }
               />
               <div
@@ -258,7 +253,7 @@ const HomePage = () => {
               <div className="w-2/4 max-lg:w-full">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[0].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Property in "}
                   titlePart2={rentHouses[0].name}
                   pricing={rentHouses[0].price}
                   type={rentHouses[0].type}
@@ -268,7 +263,7 @@ const HomePage = () => {
               <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[1].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Property in "}
                   titlePart2={rentHouses[1].name}
                   pricing={rentHouses[1].price}
                   type={rentHouses[1].type}
@@ -276,7 +271,7 @@ const HomePage = () => {
                 />
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[2].mainImage}
-                  titlePart1={"House in "}
+                  titlePart1={"Property in "}
                   titlePart2={rentHouses[2].name}
                   pricing={rentHouses[2].price}
                   type={rentHouses[2].type}
@@ -284,7 +279,7 @@ const HomePage = () => {
                 />
               </div>
             </div>
-            <div className=" flex gap-5 max-lg:flex-col">
+            {/* <div className=" flex gap-5 max-lg:flex-col">
               <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
                 <ExculusivePropertyCard
                   imgSrc={rentHouses[3].mainImage}
@@ -313,7 +308,7 @@ const HomePage = () => {
                   href={rentHouses[5].id}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -351,41 +346,41 @@ const HomePage = () => {
             >
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  15
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                Years of Excellence
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  15
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                Years of Environmental Stewardship
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  15
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                Years of Client Satisfaction
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  15
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                Years of Shaping the Real Estate Landscape
                 </p>
               </div>
             </motion.div>
             <motion.div variants={animationVariants.fadeLeft}>
               <Link onClick={scrollToTop} to={"/contact"}>
                 <Button
-                  content={"Get In Touch"}
+                  content={"Book A Site Visit"}
                   padding={"px-6 py-3"}
                   fontSize={"text-xl"}
                 />
@@ -395,7 +390,7 @@ const HomePage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/appriciation-section-image.jpg"
+                src="/banner.jpg"
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />
@@ -424,7 +419,7 @@ const HomePage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-5xl max-md:text-4xl font-semibold text-center  px-2"
           >
-            Destinations We Love The Most
+            Discover Our Extensive Portfolio of Past and Present Properties
           </motion.h1>
           <div className="grid grid-cols-4 grid-rows-1 max-lg:grid-cols-2 max-lg:grid-rows-2 max-sm:grid-cols-1 max-sm:grid-rows-4 gap-4 relative mt-10 max-sm:mt-8">
             <img
@@ -432,20 +427,17 @@ const HomePage = () => {
               className="absolute -left-10 -bottom-10 max-xl:hidden"
               alt=""
             />
-            {showCase.map((e, i) => {
-              if (e.id != 5 && e.id != 6) {
-                return (
-                  <ProjectCard
-                    key={i}
-                    src={e.coverImage}
-                    title={e.city}
-                    href={e.id}
-                  />
-                );
-              }
-            })}
+            {showCase.slice(0, 4).map((e, i) => (
+              <ProjectCard
+                key={i}
+                src={e.coverImage}
+                title={e.city}
+                href={e.id}
+              />
+            ))}
           </div>
         </div>
+
       </div>
       {/* appreciation section end */}
       {/* review section start */}
@@ -466,9 +458,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/jane-cooper.jpg"}
-                title={"Jane Cooper"}
-                from={"Real Estate"}
+                imgSrc={"/patrick.png"}
+                title={"James Mutia"}
+                from={"Entrepreneur"}
               />
             </motion.div>
             <motion.div
@@ -476,9 +468,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/robert-fox.jpg"}
-                title={"Robert Fox"}
-                from={"Creative Director"}
+                imgSrc={"/caro.png"}
+                title={"Jane Sarah"}
+                from={"Lawyer"}
               />
             </motion.div>
             <motion.div
@@ -486,9 +478,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/reviews/marvin-mckinney.jpg"}
-                title={"Marvin Mckinney"}
-                from={"CEO of Bimetrix"}
+                imgSrc={"/doreen.png"}
+                title={"Faith Kamau"}
+                from={"Nurse"}
               />
             </motion.div>
           </motion.div>
@@ -500,7 +492,7 @@ const HomePage = () => {
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
             <h1 className="text-5xl max-md:text-4xl font-semibold">
-              Why do people love homyz
+              Why People Love Patnan
             </h1>
             <div>
               <Carousel />
@@ -510,31 +502,6 @@ const HomePage = () => {
       </div>
       {/* review section end */}
       {/* partner brand section start */}
-      <div className="bg-gray-100 border-t-2 border-black/30  border-dashed">
-        <div
-          style={{ maxWidth: 1200 }}
-          className=" mx-auto flex max-md:flex-col justify-center items-center gap-10 p-10 max-md:px-5  "
-        >
-          <motion.div
-            initial="initial"
-            whileInView="animate"
-            variants={animationVariants.fadeIn}
-            viewport={{ once: true, amount: 0.1 }}
-            className="flex gap-8 flex-wrap justify-center items-center"
-          >
-            {partnerBrands.map((e, i) => {
-              return (
-                <PartnerBrandCard
-                  title={e.title}
-                  src={`/partner-brands/${e.src}.png`}
-                  alt={e.src}
-                  key={i}
-                />
-              );
-            })}
-          </motion.div>
-        </div>
-      </div>
       {/* partner brand section end */}
     </div>
   );

@@ -1,65 +1,15 @@
-# Homyz - Real Estate Web App
+Welcome to Patnan Investment, where your real estate dreams find their perfect match. Since our establishment in 2009, we've been dedicated to enhancing your investments and delivering unparalleled value every step of the way.
 
-Homyz is a Real Estate website built using the MERN stack with Vite as the bundler. It provides various functionalities for users, including property listings, adding properties to the cart, and contacting the website's support team. The website also utilizes several libraries like axios, framer-motion, react-dom, react-icons, react-router, react-router-dom, swiper, and tailwind CSS for a seamless user experience.
+At the heart of our business lies a commitment to professionalism, integrity, and transparency. Whether you're seeking prime plots of land with title deeds along the upcoming Greater Eastern Bypass or serene, modern apartments in the bustling Saika region, we're here to connect you with affordable properties that exceed your expectations.
 
-## Features
+Our properties in Joska, Malaa, KBC, and Solace are more than just addresses; they're opportunities for financial growth and comfortable living. Just 15 kilometers from Nairobi CBD and 8 kilometers from the Eastern Bypass, our locations offer convenience without compromising on tranquility or modernity.
 
-- View property listings: Users can browse through a wide range of property listings available on the website.
-- Add to Cart: Users can add properties to their cart to keep track of their preferred properties.
-- Contact Us: Users have the option to reach out to the website's support team for any inquiries or assistance they may need.
+Real estate isn't just an investment—it's a cornerstone of financial security and personal well-being. That's why we're dedicated to delivering top-notch quality services that go beyond the transaction to build lasting relationships with our clients.
 
-## Libraries Used
+With a color palette inspired by nature—green and yellow-brown—we aim to create a website that reflects the harmony and stability our properties offer. Our logo embodies our values of trustworthiness and reliability, serving as a beacon of assurance to our clients.
 
-- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
-- [tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework used to design and style the website.
-- [Chakra UI](https://chakra-ui.com/): A simple, modular, and accessible component library for building user interfaces with React.
-- [tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework used to design and style the website.
-- [axios](https://www.npmjs.com/package/axios): Used for making HTTP requests to fetch property data from the backend.
-- [framer-motion](https://www.framer.com/api/motion/): Used for creating smooth animations and transitions for a more interactive user interface.
-- [react-dom](https://reactjs.org/docs/react-dom.html): Provides the entry point to work with the DOM (Document Object Model) in React applications.
-- [react-icons](https://react-icons.github.io/react-icons/): Offers a wide range of icons for use in the application's user interface.
-- [react-router](https://www.npmjs.com/package/react-router): A collection of routing components and functions for React applications.
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom): Provides DOM bindings for React Router, enabling navigation within the web application.
-- [swiper](https://swiperjs.com/): A modern carousel library used to showcase property images in an interactive and engaging way.
+As you navigate our site, you'll find essential sections like Home, About Us, Services, Gallery, and Contacts, where you can easily locate us on a map or reach out via phone or email. Our office location, nestled next to Saika estate along Kangundo road, is conveniently situated for all your needs.
 
-## Getting Started
+Drawn to websites like ACK St. Peters Church, Kahawa Sukari, and Africa Grant Advisors, we're inspired by their simplicity and clarity of information. In two months' time, we'll unveil our new online presence—a platform that captures the essence of Patnan Investment while providing a seamless user experience.
 
-To run the Homyz website on your local machine, follow these steps:
-
-1. Clone the repository from GitHub:
-
-```bash
-git clone https://github.com/MubashirAlam89/Homyz-Project.git
-```
-
-2. Change into the project directory:
-
-```bash
-git cd homyz
-```
-
-3. Install the project dependencies using npm (Node Package Manager):
-
-```bash
-git npm install
-```
-
-4. Start the development server:
-
-```bash
-git npm run dev
-```
-
-The website should now be accessible at http://localhost:3000.
-
-## Contributing
-
-If you would like to contribute to the Homyz project, feel free to submit issues, feature requests, or pull requests on the GitHub repository. Your contributions are highly appreciated!
-
-## Live Demo.
-
-for live demo of Homyz &#128073; <a href="https://homyz-project.vercel.app">click here.</a>
-
-<hr>
-
-made with &#128151; by <a href="https://www.mubashiralam.com">"Mubashir Alam"</a>.
+For inquiries or to explore our offerings further, reach out to us at 0717 818598 or patnaninvestment@gmail.com. We look forward to being your trusted partner in real estate as we embark on this journey together.

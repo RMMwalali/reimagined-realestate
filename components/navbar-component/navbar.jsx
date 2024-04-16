@@ -13,6 +13,10 @@ import {
 } from "@chakra-ui/react";
 import { formatCompactNumber } from "../../constants/formatNumber";
 import { scrollToTop } from "../../constants/scrollToTop";
+import { motion } from "framer-motion";
+import { animationVariants } from "../../constants/animationVariants";
+
+
 const NavBar = ({ navBar2, showCase1Page }) => {
   const [totalQty, setTotalQty] = useState(0);
   const [subTotal, setSubTotal] = useState(0);
@@ -139,7 +143,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     </h2>
                                   </Link>
                                   <h3>
-                                    PKR {formatCompactNumber(e.price)}/Month
+                                    KES {formatCompactNumber(e.price)}/Month
                                   </h3>
                                   <p
                                     onClick={(event) => {
@@ -192,7 +196,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                   <div className="flex justify-between items-center">
                     <h2>Subtotal</h2>
                     <p className="total text-red-500">
-                      PKR {formatCompactNumber(subTotal)}
+                      KES {formatCompactNumber(subTotal)}
                     </p>
                   </div>
                   <Button
@@ -236,13 +240,19 @@ const NavBar = ({ navBar2, showCase1Page }) => {
           style={{ maxWidth: 1200 }}
           className="flex justify-between mx-auto items-center gap-4 py-7 max-md:py-5 px-10 max-sm:px-5 font-medium"
         >
-          <Link onClick={scrollToTop} to="/">
+          <Link onClick={scrollToTop} to="/" className="flex items-center">
             <img
-              src={navBar2 ? "/Homyz-logo2.png" : logo}
-              className="w-44 max-lg:w-36"
-              alt="Homyz-logo"
+                src={"/patnan logo.png"}
+                className="w-14 max-lg:w-10 mr-2"
+                alt="Patnan logo"
             />
-          </Link>
+            <motion.h1
+                variants={animationVariants.fadeLeft}
+                className="text-4xl text-red-500 color-white max-lg:mx-auto font-bold max-sm:text-2xl max-w-lg"
+            >
+              Patnan Investment
+            </motion.h1>
+        </Link>
           <ul
             className={
               showCase1Page
@@ -266,42 +276,13 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             >
               Our Services
             </Link>
-            <div className="showcase-menu cursor-pointer hover:text-red-500 transition-all relative">
-              Show Cases
-              <div className="showcase-list hidden absolute cursor-default -left-4 ">
-                <ul
-                  style={{ border: "1px solid #e9e9e9" }}
-                  className="mt-4 flex flex-col gap-2  bg-white text-black p-4 px-5 rounded-md  w-48"
-                >
-                  <li className="listItem flex items-center gap-2 ">
-                    <p
-                      style={{ height: "2px" }}
-                      className="w-0 bullet-line transition-all bg-red-500"
-                    ></p>
-                    <Link
-                      onClick={scrollToTop}
-                      className="hover:text-red-500 transition-all"
-                      to="/showcases/showcase1"
-                    >
-                      Show Case 1
-                    </Link>
-                  </li>
-                  <li className="listItem flex items-center gap-2">
-                    <p
-                      style={{ height: "2px" }}
-                      className="w-0 bullet-line transition-all bg-red-500"
-                    ></p>
-                    <Link
-                      onClick={scrollToTop}
-                      className="hover:text-red-500 transition-all"
-                      to="/showcases/showcase2"
-                    >
-                      Show Case 2
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <Link
+              onClick={scrollToTop}
+              className="hover:text-red-500 transition-all"
+              to={"/gallery"}
+            >
+              Gallery
+            </Link>
             <Link
               onClick={scrollToTop}
               className="hover:text-red-500 transition-all"
@@ -309,7 +290,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
             >
               About
             </Link>
-            <div
+            {/* <div
               className="relative cursor-pointer  transition-all"
               onClick={() => {
                 setModal(true);
@@ -328,7 +309,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 ""
               )}
               <FaShoppingCart />
-            </div>
+            </div> */}
 
             <Link onClick={scrollToTop} to="/contact">
               <Button
@@ -433,49 +414,17 @@ const NavBar = ({ navBar2, showCase1Page }) => {
           >
             Our Services
           </Link>
+          <Link
+            onClick={() => {
+              hideNav();
+              scrollToTop();
+            }}
+            to={"/gallery"}
+            className="hover:text-red-500 transition-all"
+          >
+            Gallery
+          </Link>
           <div className="relative">
-            <div
-              onClick={() => {
-                setShowcaseDropDown(!showcaseDropDown);
-              }}
-              className="flex justify-between hover:text-red-500 max-sm:hover:text-black transition-all items-center cursor-pointer"
-            >
-              <p className="transition-all">Show Cases</p>
-              <FaAngleDown
-                className={`${
-                  showcaseDropDown ? "-rotate-180" : "rotate-0"
-                } transition-all `}
-              />
-            </div>
-            <ul
-              className={`flex flex-col gap-2 mt-3 pl-5 transition-all duration-300 origin-top  `}
-            >
-              <Link
-                onClick={() => {
-                  hideNav();
-                  scrollToTop();
-                }}
-                className="hover:text-red-500 transition-all"
-                to={"/showcases/showcase1"}
-              >
-                Show Cases 1
-              </Link>
-              <Link
-                onClick={() => {
-                  hideNav();
-                  scrollToTop();
-                }}
-                to={"/showcases/showcase2"}
-                className="hover:text-red-500 transition-all"
-              >
-                Show Cases 2
-              </Link>
-            </ul>
-            <div
-              className={`${
-                showcaseDropDown ? "top-[114px]" : "top-[41px]"
-              } transition-all duration-200 absolute  w-full bg-white h-24`}
-            >
               <Link
                 onClick={() => {
                   hideNav();
@@ -502,7 +451,6 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 />
               </Link>
             </div>
-          </div>
         </ul>
       </nav>
     </>

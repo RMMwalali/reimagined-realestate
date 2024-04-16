@@ -59,7 +59,6 @@ const ExculusivePropertyCard = ({
           <span className="title-font">{titlePart2}</span>
         </Link>
         <hr />
-        <p className="text-lg">{formatCompactNumber(pricing)} PKR/Month</p>
       </div>
     </div>
   );

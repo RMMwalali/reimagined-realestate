@@ -4,6 +4,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
+import Copyright from "../../constants/copyright"
 
 const Footer = () => {
   const toast = useToast();
@@ -52,7 +53,7 @@ const Footer = () => {
     if (errors === false) {
       setBtnLoader(true);
       axios
-        .post("https://homyz-server.vercel.app/contact", formData)
+        .post("https://formsubmit.co/patnaninvestment@gmail.com", formData)
         .then((response) => {
           showToast();
           setFormData({
@@ -128,31 +129,31 @@ const Footer = () => {
   // You can add more validations based on your requirements
 
   return (
-    <div className="bg-black">
+    <div className="bg-gray-700">
       <footer
         style={{ maxWidth: 1200 }}
         className="mx-auto flex justify-between gap-20 max-lg:flex-col py-20 px-8 max-sm:px-5  "
       >
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
-            <a href="/">
-              <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" />
+          <a href="/">
+              <img src="/patnan logo.png" className="w-24" alt="Patnan-logo" />
             </a>
-            <p style={{ color: "#696969" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
-              pariatur. Fugit dignissimos aut tempora ullam similique minima
-              culpa quod fuga, doloribus expedita, cupiditate sint, nulla
-              distinctio soluta. Aut, sequi quia.
-            </p>
+            <div className="w-full max-w-full border rounded-lg overflow-hidden">
+              <iframe
+                title="Patnan Investments Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8567866081426!2d36.918819500000005!3d-1.2579171999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f14f17154a83d%3A0x24d2e9e157c3e236!2sPatnan%20Investment!5e0!3m2!1sen!2sde!4v1711214395755!5m2!1sen!2sde"
+                style={{ border: 0, width: "100%", height: "300px" }}
+                allowFullScreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
-              <Link target="_blank" to={"https://facebook.com"}>
+              <Link target="_blank" to={"https://www.facebook.com/profile.php?id=61556576006921&sfnsn=wa&mibextid=RUbZ1f"}>
                 <FaFacebookF />
               </Link>
-              <Link target="_blank" to={"https://instagram.com"}>
+              <Link target="_blank" to={"https://www.instagram.com/patnan_investment?igsh=MTFlZjlvd3Y1OHV1MQ=="}>
                 <FaInstagram />
-              </Link>
-              <Link target="_blank" to={"https://twitter.com"}>
-                <FaTwitter />
               </Link>
             </div>
             <ul className="text-white text-lg flex justify-start items-center flex-wrap gap-x-8 gap-y-4">
@@ -186,22 +187,21 @@ const Footer = () => {
               </Link>
             </ul>
           </div>
-          <p style={{ color: "#696969" }}>© Homyz. All Rights Reserved 2023.</p>
         </div>
 
         <div
           id="contact"
           className="w-2/4 max-lg:w-full flex flex-col h-auto justify-between items-start gap-10 "
         >
-          <h1 className="text-3xl text-white">Get in Touch</h1>
+          <h1 className="text-3xl text-white">Book a site visit</h1>
           <div className="name w-full gap-8 text-white max-sm:flex-col max-sm:gap-10 mt-3 flex">
             <Input
               pl={3}
               fontSize={19}
               variant={"flushed"}
-              borderColor={"#696969"}
+              borderColor={"#fffff"}
               focusBorderColor="white"
-              _placeholder={{ color: "#696969" }}
+              _placeholder={{ color: "#fffff" }}
               placeholder="First Name"
               name="firstName"
               maxLength={20}
@@ -213,9 +213,9 @@ const Footer = () => {
               pl={3}
               fontSize={19}
               variant={"flushed"}
-              borderColor={"#696969"}
+              borderColor={"#fffff"}
               focusBorderColor="white"
-              _placeholder={{ color: "#696969" }}
+              _placeholder={{ color: "#fffff" }}
               placeholder="Last Name"
               name="lastName"
               maxLength={20}
@@ -229,9 +229,9 @@ const Footer = () => {
               pl={3}
               fontSize={19}
               variant={"flushed"}
-              borderColor={"#696969"}
+              borderColor={"#fffff"}
               focusBorderColor="white"
-              _placeholder={{ color: "#696969" }}
+              _placeholder={{ color: "#fffff" }}
               placeholder="Email Address"
               name="email"
               maxLength={40}
@@ -243,9 +243,9 @@ const Footer = () => {
               pl={3}
               fontSize={19}
               variant={"flushed"}
-              borderColor={"#696969"}
+              borderColor={"#fffff"}
               focusBorderColor="white"
-              _placeholder={{ color: "#696969" }}
+              _placeholder={{ color: "#fffff" }}
               type="number"
               placeholder="Phone No"
               name="phoneNo"
@@ -260,9 +260,9 @@ const Footer = () => {
             pl={3}
             fontSize={19}
             variant={"flushed"}
-            borderColor={"#696969"}
+            borderColor={"#fffff"}
             focusBorderColor="white"
-            _placeholder={{ color: "#696969" }}
+            _placeholder={{ color: "#fffff" }}
             placeholder="Message"
             maxLength={200}
             className="w-full text-white"
@@ -272,10 +272,10 @@ const Footer = () => {
             autoComplete="off"
           />
           <Button
-            _hover={{ backgroundColor: "white", color: "#d5515e" }}
-            backgroundColor={"#d5515e"}
+            _hover={{ backgroundColor: "white", color: "#3cb371" }}
+            backgroundColor={"#3cb371"}
             color={"white"}
-            borderColor={"#d5515e"}
+            borderColor={"#3cb371"}
             variant={"outline"}
             size={"lg"}
             isLoading={btnLoader}
@@ -290,7 +290,7 @@ const Footer = () => {
             Submit
           </Button>
         </div>
-      </footer>
+      </footer><div className="pb-10"><Copyright/></div>
     </div>
   );
 };
