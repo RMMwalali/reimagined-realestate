@@ -24,7 +24,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
   const { cartItems, setCartItems, addToCart, modal, setModal } =
     useContext(CartContext);
   const [whenScroll, setWhenScroll] = useState("bg-transparent");
-  const [logo, setlogo] = useState("/Homyz-logo.png");
+  const [logo, setlogo] = useState("/patnan logo.png");
   const [textColor, setTextColor] = useState("text-white");
   const [showcaseDropDown, setShowcaseDropDown] = useState(false);
   const [viewSideNav, setViewSideNav] = useState(false);
@@ -37,12 +37,12 @@ const NavBar = ({ navBar2, showCase1Page }) => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
         setWhenScroll("bg-white");
-        setlogo("/Homyz-logo2.png");
+        setlogo("/patnan logo.png");
         setTextColor("text-black");
       } else {
         setWhenScroll("transparent");
         setTextColor("text-white");
-        setlogo("/Homyz-logo.png");
+        setlogo("/patnan logo.png");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -320,30 +320,12 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               />
             </Link>
           </ul>
-          {/* <ul
+          <ul
             className={`${
               navBar2 ? "text-black" : textColor
             } text-xl hidden max-lg:flex justify-center items-center gap-8`}
           >
-            <div
-              className="relative"
-              onClick={() => {
-                setModal(true);
-              }}
-            >
-              {totalQty > 0 ? (
-                <p
-                  className={`absolute bg-red-500 pt-[1.5px] text-white rounded-full h-[18px] px-1   min-w-[18px] ${
-                    totalQty >= 100 ? "-right-[15px]" : "-right-[10px]"
-                  }  text-xs font-medium text-center -top-[10px]`}
-                >
-                  {totalQty}
-                </p>
-              ) : (
-                ""
-              )}
-              <FaShoppingCart />
-            </div>
+            
 
             <FaBars
               onClick={() => {
@@ -351,7 +333,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               }}
               className="cursor-pointer"
             />
-          </ul> */}
+          </ul>
         </nav>
       </div>
 
@@ -373,7 +355,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
         } bg-white  left-0 w-96 p-5 px-10 max-sm:px-5 max-sm:w-80 z-30 transition-all font-medium`}
       >
         <div id="header" className="flex justify-between items-center">
-          <img className="w-36" src="/Homyz-logo2.png" alt="Homyz-logo2" />
+          <img className="w-16" src="/patnan logo.png" alt="patnan logo" />
           <div
             onClick={() => {
               setViewSideNav(!viewSideNav);
