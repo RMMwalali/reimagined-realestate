@@ -320,7 +320,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               />
             </Link>
           </ul>
-          <ul
+          {/* <ul
             className={`${
               navBar2 ? "text-black" : textColor
             } text-xl hidden max-lg:flex justify-center items-center gap-8`}
@@ -351,7 +351,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
               }}
               className="cursor-pointer"
             />
-          </ul>
+          </ul> */}
         </nav>
       </div>
 
