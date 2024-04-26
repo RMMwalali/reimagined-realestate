@@ -69,7 +69,7 @@ const ContactPage = () => {
     if (errors === false) {
       setBtnLoader(true);
       axios
-        .post("https://formsubmit.co/patnaninvestment@gmail.com", formData)
+        .post("https://formspree.io/f/mjvnjqpq", formData)
         .then((response) => {
           showToast();
           setFormData({

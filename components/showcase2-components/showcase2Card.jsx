@@ -9,7 +9,7 @@ const Showcase2Card = ({ src, href, title }) => {
     const propertyTitle = encodeURIComponent(title); // Encode title for URL
     const message = `Hey! I'm interested in buying a property in ${propertyTitle}. Can you provide more details?`;
 
-    const whatsappLink = `https://wa.me/254741370283?text=${message}`;
+    const whatsappLink = `https://wa.me/+254717818598?text=${message}`;
     window.open(whatsappLink, "_blank");
   };
 

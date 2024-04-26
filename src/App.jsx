@@ -14,6 +14,7 @@ import Featured from "../components/featured-&-popluar-page-component/featrued";
 import Popular from "../components/featured-&-popluar-page-component/popluar";
 import Contact from "./contact";
 import Results from "./results";
+import WhatsAppButton from "../components/home-page-components/whatsappButton";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <HomePage />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -32,6 +34,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <Services />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -42,6 +45,7 @@ const router = createBrowserRouter([
       <>
         <NavBar navBar2={true} />
         <Results />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -52,6 +56,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <Service />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -61,8 +66,8 @@ const router = createBrowserRouter([
     element: (
       <>
         <NavBar showCase1Page={true} />
-
         <ShowCase1 />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -73,6 +78,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <ShowCase2 />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -83,6 +89,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <Featured />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -93,6 +100,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <Popular />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -103,6 +111,7 @@ const router = createBrowserRouter([
       <>
         <NavBar navBar2={true} />
         <Products />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -113,6 +122,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <AboutProject />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -123,6 +133,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <About />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),
@@ -133,6 +144,7 @@ const router = createBrowserRouter([
       <>
         <NavBar />
         <Contact />
+        <WhatsAppButton/>
         <Footer />
       </>
     ),

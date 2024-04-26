@@ -240,7 +240,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
           style={{ maxWidth: 1200 }}
           className="flex justify-between mx-auto items-center gap-4 py-7 max-md:py-5 px-10 max-sm:px-5 font-medium"
         >
-          <Link onClick={scrollToTop} to="/" className="flex items-center">
+          {/* <Link onClick={scrollToTop} to="/" className="flex items-center">
             <img
                 src={"/patnan logo.png"}
                 className="w-14 max-lg:w-10 mr-2"
@@ -250,17 +250,25 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                 variants={animationVariants.fadeLeft}
                 className="text-4xl text-red-500 color-white max-lg:mx-auto font-bold max-sm:text-2xl max-w-lg"
             >
-              Patnan Investment
+              PATNAN INVESTMENT
             </motion.h1>
-        </Link>
+        </Link> */}
+          <Link onClick={scrollToTop} to="/" className="flex items-center">
+            <img
+              src="/patnan logo.png"
+              alt="Logo"
+              className="w-16 h-16 mr-2"
+            />
+            <motion.div
+              className="flex flex-col">
+              <motion.h1 className="text-2xl title-font max-lg:text-lg justify-center items-center text-black">PATNAN INVESTMENT</motion.h1>
+              <motion.p className="text-xl title-font max-lg:text-sm justify-center items-center text-black" style={{ fontFamily: "Dancing Script, cursive" }}>
+              Connecting you to affordable properties
+            </motion.p>
+            </motion.div>
+          </Link>
           <ul
-            className={
-              showCase1Page
-                ? "text-xl flex max-lg:hidden justify-center items-center gap-8 text-white"
-                : `${
-                    navBar2 ? "text-black" : textColor
-                  } text-xl flex max-lg:hidden justify-center items-center gap-8`
-            }
+            className="text-xl flex max-lg:hidden justify-center items-center gap-8 text-black"
           >
             <Link
               onClick={scrollToTop}

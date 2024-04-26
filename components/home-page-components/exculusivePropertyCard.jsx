@@ -30,7 +30,7 @@ const ExculusivePropertyCard = ({
         whileInView="animate"
         variants={animationVariants.toLeft}
         viewport={{ once: true, amount: 0.2 }}
-        className={`absolute w-full h-full ${bgColor}  bg-gray-100 origin-left z-20 `}
+        className={`absolute w-full h-full ${bgColor}  bg-green-200 origin-left z-20 `}
       >
         <div className=""></div>
       </motion.div>

@@ -39,9 +39,17 @@ const HomePage = () => {
       errorToast("Fill the first first!", "error");
     }
   };
+
+  const handleWhatsAppRedirect = () => {
+    const message = "Hi, I'm interested in booking a site visit. Can you provide more information?";
+    const phoneNumber = "+254717818598"; // Replace with the phone number you want to send the message to
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappLink, "_blank");
+  };
+
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex bg-[url('/herobg.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
+      <div className="  flex bg-[url('/Services/images/land.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -93,9 +101,19 @@ const HomePage = () => {
             variants={animationVariants.fadeLeft}
             className="flex max-lg:flex-col max-lg:items-center gap-10 w-full justify-between items-end mt-4"
           >
+            <div className=" max-sm:flex-wrap  justify-center">
+                <Button
+                content={"Book A Site Visit"}
+                fontSize={"text-xl"}
+                fontWeight={""}
+                padding={"px-2  py-2"}
+                onClick={handleWhatsAppRedirect}
+              />
+            
+            </div>
             <div className="flex gap-12">
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">50+</h2>
+                <h2 className="text-4xl title-font font-bold">1000+</h2>
                 <p className="text-lg">Properties Sold</p>
               </div>
               <div className="flex flex-col gap-4">
@@ -103,20 +121,7 @@ const HomePage = () => {
                 <p className="text-lg">Years in Business</p>
               </div>
             </div>
-            <div className="flex gap-12 max-sm:flex-wrap  justify-center">
-              <div className="flex justify-start items-center gap-1">
-                <img className="w-9" src="/compass.png" alt="img" />
-                <h2 className="text-2xl">Joska</h2>
-              </div>
-              <div className="flex justify-start items-center gap-1">
-                <img className="w-9" src="/mappin.png" alt="img" />
-                <h2 className="text-2xl">Malaa</h2>
-              </div>
-              <div className="flex justify-start items-center gap-1">
-                <img className="w-9" src="/building.png" alt="img" />
-                <h2 className="text-2xl">ABC</h2>
-              </div>
-            </div>
+            
           </motion.div>
         </motion.div>
 
@@ -165,7 +170,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* what we do section start */}
-      <div className="bg-gray-100">
+      <div className="bg-green-200">
         <div
           style={{ maxWidth: 1200 }}
           className=" mx-auto flex gap-5 justify-between items-start p-10 py-28 max-md:py-16 max-md:px-5 max-lg:flex-col max-lg:items-center  max-lg:gap-12"
@@ -441,7 +446,7 @@ const HomePage = () => {
       </div>
       {/* appreciation section end */}
       {/* review section start */}
-      <div className="bg-gray-100">
+      <div className="bg-green-200">
         <div
           style={{ maxWidth: 1200 }}
           className=" mx-auto flex max-md:flex-col justify-center items-center gap-16 p-10 max-md:px-5 py-28 "
@@ -498,6 +503,7 @@ const HomePage = () => {
               <Carousel />
             </div>
           </motion.div>
+          
         </div>
       </div>
       {/* review section end */}

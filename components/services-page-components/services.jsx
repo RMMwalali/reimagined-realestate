@@ -27,7 +27,7 @@ const ServicesComponent = () => {
               <p className="text-lg">Years in Business</p>
             </div>
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl  title-font font-bold">50+</h2>
+              <h2 className="text-4xl  title-font font-bold">1000+</h2>
               <p className="text-lg">Properties Sold</p>
             </div>
           </div>

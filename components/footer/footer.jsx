@@ -53,7 +53,7 @@ const Footer = () => {
     if (errors === false) {
       setBtnLoader(true);
       axios
-        .post("https://formsubmit.co/patnaninvestment@gmail.com", formData)
+        .post("https://formspree.io/f/xayragaw", formData)
         .then((response) => {
           showToast();
           setFormData({
