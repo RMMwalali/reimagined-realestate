@@ -69,7 +69,7 @@ export const showCase = [
   },
   {
     id: 5,
-    city: "ABC",
+    city: "KBC",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -120,7 +120,7 @@ export const showCase = [
   },
   {
     id: 8,
-    city: "ABC",
+    city: "KBC",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -137,7 +137,7 @@ export const showCase = [
   },
   {
     id: 9,
-    city: "ABC",
+    city: "KBC",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -205,7 +205,7 @@ export const showCase = [
   },
   {
     id: 13,
-    city: "ABC",
+    city: "KBC",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -222,7 +222,7 @@ export const showCase = [
   },
   {
     id: 14,
-    city: "ABC",
+    city: "KBC",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -256,7 +256,7 @@ export const showCase = [
   },
   {
     id: 16,
-    city: "ABC",
+    city: "KBC",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -273,7 +273,7 @@ export const showCase = [
   },
   {
     id: 17,
-    city: "ABC",
+    city: "KBC",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -290,7 +290,7 @@ export const showCase = [
   },
   {
     id: 18,
-    city: "ABC",
+    city: "KBC",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:

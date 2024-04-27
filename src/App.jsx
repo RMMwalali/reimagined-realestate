@@ -151,7 +151,12 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <Error404 />,
+    element: (
+      <>
+        <Error404 />
+        <WhatsAppButton/>
+      </>
+      )
   },
 ]);
 

@@ -61,8 +61,8 @@ export const rentHouses = [
       "/Gallery/20.png",
       "/Gallery/16.png",
     ],
-    name: "ABC",
-    address: "ABC in Machakos County, Kenya",
+    name: "KBC",
+    address: "KBC in Machakos County, Kenya",
     price: 50000,
     details: [
       "Gulistan-e-Johar Block 7",
@@ -75,6 +75,6 @@ export const rentHouses = [
       "Area: 950 sqr.feet",
     ],
     description:
-      "Situated along the upcoming Greater Eastern Bypass, ABC stands as a beacon of opportunity for savvy investors and entrepreneurs. Boasting a prime location and expansive size of 30 acres, ABC is perfectly positioned for commercial and industrial ventures. Its favorable zoning regulations and accessibility to major transportation routes make it an ideal choice for businesses looking to establish a foothold in the rapidly growing region. With its unmatched market value and promising future prospects, ABC is the ultimate destination for those seeking to make their mark in the real estate landscape.",
+      "Situated along the upcoming Greater Eastern Bypass, KBC stands as a beacon of opportunity for savvy investors and entrepreneurs. Boasting a prime location and expansive size of 30 acres, KBC is perfectly positioned for commercial and industrial ventures. Its favorable zoning regulations and accessibility to major transportation routes make it an ideal choice for businesses looking to establish a foothold in the rapidly growing region. With its unmatched market value and promising future prospects, KBC is the ultimate destination for those seeking to make their mark in the real estate landscape.",
   },
 ];
