@@ -338,20 +338,20 @@ const ContactPage = () => {
             </h1>
           </div>
           <p className="text-xl">
-          Are you and your family looking for a cozy home? We have serene and lush apartments where you can live and thrive. These properties are located in Solace, in the Saika region along Kangundo Road. They are just 15 kilometers from Nairobi’s Central Business District and 8 kilometers from the Eastern Bypass.
+          Are you and your family looking for a prime property? We have serene and lush apartments where you can live and thrive. These properties are located in Joska, Malaa and KBC.Our offices are located at solace, Saika along Kagundo road ( 40 Minutes from Nairobi CBD)
           </p>
           <div className="flex flex-col gap-3">
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaEnvelope className="text-red-500" />
               </div>
-              <p>patnaninvestment@gmail.com</p>
+              <p>info@patnaninvestment.co.ke</p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaPhone className="rotate-90 text-red-500" />
               </div>
-              <p>+2547 1781 8598</p>
+              <p>+254 717 818 598</p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
