@@ -60,7 +60,7 @@ const HomePage = () => {
         >
           <motion.h1
             variants={animationVariants.fadeLeft}
-            className="text-6xl max-lg:mx-auto font-semibold max-sm:text-4xl max-w-lg "
+            className="text-6xl max-lg:mx-auto title-font font-semibold max-sm:text-4xl max-w-lg "
           >
             Discover Your Perfect Property
           </motion.h1>
@@ -186,7 +186,7 @@ const HomePage = () => {
               What we do
             </h2>
             <p className="text-xl">
-             Whether you're seeking prime plots of land with title deeds along the upcoming Greater Eastern Bypass or serene, modern apartments in the bustling Saika region, we're here to connect you with affordable properties that exceed your expectations.Our properties in Joska, Malaa, KBC, and Solace are more than just addresses; they're opportunities for financial growth and comfortable living. Just 15 kilometers from Nairobi CBD and 8 kilometers from the Eastern Bypass, our locations offer convenience without compromising on tranquility or modernity.
+             Whether you're seeking prime plots of land with title deeds along the upcoming Greater Eastern Bypass or serene, modern apartments in the bustling Saika region, we're here to connect you with affordable properties that exceed your expectations. Our properties in Joska, Malaa, KBC, and Solace are more than just addresses; they're opportunities for financial growth and comfortable living. Just 15 kilometers from Nairobi CBD and 8 kilometers from the Eastern Bypass, our locations offer convenience without compromising on tranquility or modernity.
             </p>
             <Link onClick={scrollToTop} to={"/about"}>
               <button
@@ -334,7 +334,7 @@ const HomePage = () => {
           >
             <motion.h1
               variants={animationVariants.fadeLeft}
-              className="text-5xl max-md:text-4xl font-semibold"
+              className="text-5xl max-md:text-4xl title-font font-semibold"
             >
               We use Real Estate to show our appreciation of the world.
             </motion.h1>
@@ -422,7 +422,7 @@ const HomePage = () => {
             whileInView="animate"
             variants={animationVariants.fadeIn}
             viewport={{ once: true, amount: 0.2 }}
-            className="text-5xl max-md:text-4xl font-semibold text-center  px-2"
+            className="text-5xl max-md:text-4xl font-semibold title-font text-center  px-2"
           >
             Discover Our Extensive Portfolio of Past and Present Properties
           </motion.h1>
@@ -463,9 +463,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/patrick.png"}
-                title={"James Mutia"}
-                from={"Entrepreneur"}
+                imgSrc={"/isaac.png"}
+                title={"Isaac Magu"}
+                from={"Doctor"}
               />
             </motion.div>
             <motion.div
@@ -473,9 +473,9 @@ const HomePage = () => {
               variants={animationVariants.zoomIn}
             >
               <ReviewCard
-                imgSrc={"/caro.png"}
-                title={"Jane Sarah"}
-                from={"Lawyer"}
+                imgSrc={"/carol.png"}
+                title={"Caroline Njeri"}
+                from={"Journalist"}
               />
             </motion.div>
             <motion.div
@@ -484,8 +484,8 @@ const HomePage = () => {
             >
               <ReviewCard
                 imgSrc={"/doreen.png"}
-                title={"Faith Kamau"}
-                from={"Nurse"}
+                title={"Doreen Wanjiku"}
+                from={"Entrepreneur"}
               />
             </motion.div>
           </motion.div>
@@ -496,7 +496,7 @@ const HomePage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
-            <h1 className="text-5xl max-md:text-4xl font-semibold">
+            <h1 className="text-5xl max-md:text-4xl title-font font-semibold">
               Why People Love Patnan
             </h1>
             <div>
