@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'http://patnaninvestment.co.ke/',
+  // base: 'http://patnaninvestment.co.ke/',
   plugins: [react()],
   server: {
     watch: {
