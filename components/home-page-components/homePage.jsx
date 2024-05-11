@@ -49,7 +49,7 @@ const HomePage = () => {
 
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex bg-[url('/Services/images/land.jpg')] pt-36 pb-20 bg-top bg-no-repeat bg-cover  ">
+      <div className="  flex bg-[url('/Services/images/land.png')] pt-36 pb-20 bg-top bg-no-repeat bg-cover ">
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -66,7 +66,7 @@ const HomePage = () => {
           </motion.h1>
           <motion.p
             variants={animationVariants.fadeLeft}
-            className="text-xl max-lg:mx-auto max-w-md  "
+            className="text-xl max-lg:mx-auto max-w-md"
           >
             Our mission is to empower dreams through unparalleled real estate solutions
           </motion.p>
@@ -395,11 +395,10 @@ const HomePage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/banner.jpg"
+                src="/banner.png"
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />
-              <div className="absolute w-full h-full bg-black/50 "></div>
 
               <motion.div
                 initial="initial"
@@ -422,9 +421,9 @@ const HomePage = () => {
             whileInView="animate"
             variants={animationVariants.fadeIn}
             viewport={{ once: true, amount: 0.2 }}
-            className="text-5xl max-md:text-4xl font-semibold title-font text-center  px-2"
+            className="text-5xl max-md:text-4xl font-semibold title-font text-center px-2"
           >
-            Discover Our Extensive Portfolio of Past and Present Properties
+            Discover Our Portfolio
           </motion.h1>
           <div className="grid grid-cols-4 grid-rows-1 max-lg:grid-cols-2 max-lg:grid-rows-2 max-sm:grid-cols-1 max-sm:grid-rows-4 gap-4 relative mt-10 max-sm:mt-8">
             <img

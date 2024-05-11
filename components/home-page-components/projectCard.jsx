@@ -13,13 +13,13 @@ const ProjectCard = ({ src, title, href }) => {
         className="absolute w-full h-full object-cover object-center hover transition-all duration-500"
         alt=""
       />
-      <div className="absolute w-full h-full bg-black/50 "></div>
+      <div className="absolute w-full h-full bg-black/20 "></div>
       <motion.div
         initial="initial"
         whileInView="animate"
         variants={animationVariants.toLeft}
         viewport={{ once: true, amount: 0.2 }}
-        className="absolute w-full h-full bg-white origin-left z-20 "
+        className="absolute w-full h-full bg-white origin-left z-20"
       >
         <div className=""></div>
       </motion.div>

@@ -6,7 +6,7 @@ import { animationVariants } from "../../constants/animationVariants";
 const ServicesComponent = () => {
   return (
     <>
-      <div className="bg-[url(/Services/images/land.jpg)] bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 ">
+      <div className="bg-[url(/Services/images/lands.png)] bg-fixed bg-center bg-cover pt-44 pb-36 max-md:pt-36 max-md:pb-24 ">
         <motion.div
           initial="initial"
           whileInView="animate"

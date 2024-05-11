@@ -2,11 +2,8 @@ export const rentHouses = [
   {
     id: 1,
     type: "featured",
-    mainImage: "/Gallery/2.png",
+    mainImage: "/Gallery/16.png",
     moreImages: [
-      "/Gallery/4.png",
-      "/Gallery/7.png",
-      "/Gallery/9.png",
       "/Gallery/16.png",
     ],
     name: "Joska",
@@ -28,12 +25,9 @@ export const rentHouses = [
   {
     id: 2,
     type: "featured",
-    mainImage: "/Gallery/7.png",
+    mainImage: "/Gallery/26.png",
     moreImages: [
-      "/Gallery/5.png",
-      "/Gallery/15.png",
-      "/Gallery/18.png",
-      "/Gallery/11.png",
+      "/Gallery/26.png",
     ],
     name: "Malaa",
     address: "Malaa in Machakos County, Kenya",
@@ -54,12 +48,9 @@ export const rentHouses = [
   {
     id: 3,
     type: "popular",
-    mainImage: "/Gallery/12.png",
+    mainImage: "/Gallery/25.png",
     moreImages: [
-      "/Gallery/13.png",
-      "/Gallery/14.png",
-      "/Gallery/20.png",
-      "/Gallery/16.png",
+      "/Gallery/25.png",
     ],
     name: "KBC",
     address: "KBC in Machakos County, Kenya",

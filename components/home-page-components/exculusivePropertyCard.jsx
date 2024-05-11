@@ -1,4 +1,4 @@
-import "./exculusiveCard.css";
+import "./exclusiveCard.css";
 import Button from "../buttons-component/solidbutton";
 import { Link } from "react-router-dom";
 import { formatCompactNumber } from "../../constants/formatNumber";
@@ -24,7 +24,7 @@ const ExculusivePropertyCard = ({
         className="absolute w-full h-full object-cover object-center hover transition-all duration-500"
         alt=""
       />
-      <div className="absolute w-full h-full bg-black/50 "></div>
+      <div className="absolute w-full h-full bg-black/30 "></div>
       <motion.div
         initial="initial"
         whileInView="animate"

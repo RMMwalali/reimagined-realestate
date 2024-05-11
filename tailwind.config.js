@@ -9,6 +9,7 @@ export default {
     extend: {
       colors: {
         "red-500": "#3cb371",
+        "bg-hero": "#E2AC4B"
       },
     },
   },
