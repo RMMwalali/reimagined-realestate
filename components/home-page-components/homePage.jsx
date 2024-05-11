@@ -135,7 +135,7 @@ const HomePage = () => {
         >
           <div className="w-2/4 max-md:w-full ">
             <motion.div
-              initial="initial"
+            initial="initial"
               whileInView="animate"
               variants={animationVariants.zoomOut}
               viewport={{ once: true, amount: 0.2 }}

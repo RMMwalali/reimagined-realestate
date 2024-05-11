@@ -5,6 +5,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
 import Copyright from "../../constants/copyright"
+import { motion } from "framer-motion";
 
 const Footer = () => {
   const toast = useToast();
@@ -136,12 +137,20 @@ const Footer = () => {
       >
         <div className="flex flex-col items-start h-auto justify-between gap-16 w-2/4 max-lg:w-full pr-10 max-sm:pr-0">
           <div className="flex flex-col text-lg items-start  justify-between gap-10 ">
-          <a href="/">
-              <img src="/patnan logo.png" className="w-24" alt="Patnan-logo" />
-            </a>
+            <Link  to="/" className="flex items-center">
+              <img src="/patnan logo.png" className="w-16 h-16 mr-2" alt="Patnan-logo" />
+              <motion.div
+              className="flex flex-col">
+              <motion.h1 className="text-2xl title-font max-lg:text-lg justify-center items-center text-white">PATNAN INVESTMENT</motion.h1>
+              <motion.p className="text-xl title-font max-lg:text-sm justify-center items-center text-white" style={{ fontFamily: "Dancing Script, cursive" }}>
+              Connecting you to affordable properties
+            </motion.p>
+            </motion.div>
+            </Link>
+          
             <div className="w-full max-w-full border rounded-lg overflow-hidden">
               <iframe
-                title="Patnan Investments Location"
+                title="Patnan Investment Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8567866081426!2d36.918819500000005!3d-1.2579171999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f14f17154a83d%3A0x24d2e9e157c3e236!2sPatnan%20Investment!5e0!3m2!1sen!2sde!4v1711214395755!5m2!1sen!2sde"
                 style={{ border: 0, width: "100%", height: "300px" }}
                 allowFullScreen=""
