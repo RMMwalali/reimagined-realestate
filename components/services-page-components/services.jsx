@@ -16,7 +16,7 @@ const ServicesComponent = () => {
           className="flex gap-10 justify-between items-end max-md:items-center px-10 mx-auto max-md:px-5 max-md:flex-col"
         >
           <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
-            <h1 className="text-5xl font-bold">Our Services</h1>
+            <h1 className="text-5xl title-font font-bold">Our Services</h1>
             <p className="text-xl max-w-md">
             Our mission is to empower dreams through unparalleled real estate solutions
             </p>

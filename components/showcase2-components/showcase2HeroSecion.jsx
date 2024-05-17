@@ -9,7 +9,7 @@ const ShowCase2HeroSection = () => {
         whileInView="animate"
         variants={animationVariants.zoomOut}
         viewport={{ once: true, amount: 0.2 }}
-        className="text-6xl max-sm:text-5xl text-center font-semibold "
+        className="text-6xl title-font max-sm:text-5xl text-center font-semibold "
       >
         Welcome to Our Gallery
       </motion.h1>

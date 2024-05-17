@@ -5,7 +5,6 @@ import Button from "../buttons-component/solidbutton";
 import ProjectCard from "./projectCard";
 import Carousel from "./carousel";
 import ReviewCard from "./reviewCard";
-import PartnerBrandCard from "./partnerBrandCard";
 import { rentHouses } from "../../constants/data";
 import { motion } from "framer-motion";
 import { animationVariants } from "../../constants/animationVariants";
@@ -13,8 +12,8 @@ import { showCase } from "../../constants/showcase";
 import "./homePage.css";
 import { Link, useNavigate } from "react-router-dom";
 import { scrollToTop } from "../../constants/scrollToTop";
-import { partnerBrands } from "../../constants/partnerBrands";
 import { useToast } from "@chakra-ui/react";
+
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -249,7 +248,7 @@ const HomePage = () => {
             whileInView="animate"
             variants={animationVariants.fadeIn}
             viewport={{ once: true, amount: 0.2 }}
-            className="text-5xl max-md:text-4xl font-semibold text-center"
+            className="text-5xl max-md:text-4xl title-font font-semibold text-center"
           >
             Exclusive Properties
           </motion.h2>

@@ -1,5 +1,5 @@
 {
-  "name": "homyz",
+  "name": "patnan",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -21,7 +21,9 @@
     "react-icons": "^4.9.0",
     "react-router": "^6.13.0",
     "react-router-dom": "^6.13.0",
-    "swiper": "^10.0.4"
+    "swiper": "^10.0.4",
+    "vue-image-compressor": "^1.0.3",
+    "vue-meta": "^2.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

@@ -154,7 +154,7 @@ const ContactPage = () => {
             whileInView="animate"
             variants={animationVariants.zoomOut}
             viewport={{ once: true, amount: 0.2 }}
-            className="text-6xl max-lg:mx-auto font-semibold max-sm:text-5xl max-w-lg "
+            className="text-6xl title-font max-lg:mx-auto font-semibold max-sm:text-5xl max-w-lg "
           >
             Contact Us
           </motion.h1>
@@ -330,7 +330,7 @@ const ContactPage = () => {
           className="w-1/2 flex flex-col gap-5 max-lg:w-full"
         >
           <div className="text-5xl max-md:text-4xl max-md:text-center">
-            <h1 className="font-semibold ">
+            <h1 className="font-semibold  title-font">
               Contact our support{" "}
               <span className="font-semibold title-font  text-red-500">
                 team to grow your business
@@ -338,7 +338,7 @@ const ContactPage = () => {
             </h1>
           </div>
           <p className="text-xl">
-          Are you and your family looking for a prime property? We have serene and lush apartments where you can live and thrive. These properties are located in Joska, Malaa and KBC.Our offices are located at solace, Saika along Kagundo road ( 40 Minutes from Nairobi CBD)
+          Are you and your family looking for a prime property? We have serene and lush apartments where you can live and thrive. These properties are located in Joska, Malaa and KBC. Our offices are located at Solace, Saika along Kagundo road ( 40 Minutes from Nairobi CBD)
           </p>
           <div className="flex flex-col gap-3">
             <div className="flex  gap-3 text-xl items-center">
@@ -357,7 +357,7 @@ const ContactPage = () => {
               <div>
                 <FaMapMarkerAlt className="text-red-500" />
               </div>
-              <p>Saika region along Kangundo Road</p>
+              <p>Solace near Saika Estate along Kangundo Road</p>
             </div>
           </div>
         </motion.div>

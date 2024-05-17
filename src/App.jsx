@@ -18,6 +18,7 @@ import WhatsAppButton from "../components/home-page-components/whatsappButton";
 
 const router = createBrowserRouter([
   {
+    mode: "history",
     path: "/",
     element: (
       <>

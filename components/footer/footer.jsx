@@ -202,7 +202,7 @@ const Footer = () => {
           id="contact"
           className="w-2/4 max-lg:w-full flex flex-col h-auto justify-between items-start gap-10 "
         >
-          <h1 className="text-3xl text-white">Book a site visit</h1>
+          <h1 className="text-3xl title-font text-white">Book a site visit</h1>
           <div className="name w-full gap-8 text-white max-sm:flex-col max-sm:gap-10 mt-3 flex">
             <Input
               pl={3}

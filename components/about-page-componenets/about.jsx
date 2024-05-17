@@ -24,7 +24,7 @@ const AboutPage = () => {
           className="flex gap-10 justify-between items-end max-md:items-center px-10 mx-auto max-md:px-5 max-md:flex-col"
         >
           <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
-            <h1 className="text-5xl font-bold">Who We Are</h1>
+            <h1 className="text-5xl title-font font-bold">Who We Are</h1>
             <p className="text-xl max-w-md">
             Our mission is to empower dreams through unparalleled real estate solutions
             </p>
@@ -54,7 +54,7 @@ const AboutPage = () => {
         >
           <div className="flex w-full gap-10 max-md:flex-col max-md:justify-center max-md:items-center max-md:text-center">
             <div className="flex flex-col items-start justify-between max-md:items-center">
-              <h1 className="text-5xl font-bold w-max">
+              <h1 className="text-5xl title-font font-bold w-max">
                 What we offer
               </h1>
               <Link onClick={scrollToTop} to={"/services"}>
@@ -76,7 +76,7 @@ const AboutPage = () => {
           </div>
           <div className="what-we-do-cards mt-14 gap-8 max-md:grid-cols-1 max-md:grid-rows-3 grid grid-cols-3 grid-rows-1">
             <div>
-              <h2 className="text-2xl text-red-500 font-semibold">
+              <h2 className="text-2xl text-red-500 title-font font-semibold">
               Consultation and Assessment
               </h2>
               <p className="text-xl mt-2">
@@ -84,7 +84,7 @@ const AboutPage = () => {
               </p>
             </div>
             <div>
-              <h2 className="text-2xl text-red-500 font-semibold">
+              <h2 className="text-2xl text-red-500  title-font font-semibold">
               Property Search and Selection
               </h2>
               <p className="text-xl mt-2">
@@ -92,7 +92,7 @@ const AboutPage = () => {
               </p>
             </div>
             <div>
-              <h2 className="text-2xl text-red-500 font-semibold">
+              <h2 className="text-2xl text-red-500 title-font font-semibold">
               Negotiation and Closing
               </h2>
               <p className="text-xl mt-2">
@@ -132,7 +132,7 @@ const AboutPage = () => {
           >
             <h2 className="text-2xl">Years in Business</h2>
             <div className="relative w-fit max-md:mx-auto -mt-7 max-md:-mt-5">
-              <h1 className="text-[150px] max-sm:text-[120px] font-semibold relative text-red-500">
+              <h1 className="text-[150px] max-sm:text-[120px] title-font font-semibold relative text-red-500">
                 15+
               </h1>
             </div>
@@ -157,8 +157,8 @@ const AboutPage = () => {
             </div>
 
             <div className=" w-1/2 text-5xl max-lg:text-4xl max-md:w-full ">
-              <h1 className="font-semibold ">Fascinating Facts</h1>
-              <h1 className="font-semibold  text-red-500">
+              <h1 className="font-semibold  title-font">Fascinating Facts</h1>
+              <h1 className="font-semibold  title-font  text-red-500">
               About Real Estate
               </h1>
             </div>
