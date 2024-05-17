@@ -2,9 +2,9 @@ export const rentHouses = [
   {
     id: 1,
     type: "featured",
-    mainImage: "/Gallery/16.png",
+    mainImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715928417/Patnan%20Web/jw8vewly0miljmdudnsr.png",
     moreImages: [
-      "/Gallery/16.png",
+      "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715928417/Patnan%20Web/jw8vewly0miljmdudnsr.png",
     ],
     name: "Joska",
     address: "Joska in Machakos County, Kenya",
@@ -25,9 +25,9 @@ export const rentHouses = [
   {
     id: 2,
     type: "featured",
-    mainImage: "/Gallery/26.png",
+    mainImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715936401/Patnan%20Web/l6udn1ab9dnobst0beua.png",
     moreImages: [
-      "/Gallery/26.png",
+      "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715936401/Patnan%20Web/l6udn1ab9dnobst0beua.png",
     ],
     name: "Malaa",
     address: "Malaa in Machakos County, Kenya",
@@ -48,9 +48,9 @@ export const rentHouses = [
   {
     id: 3,
     type: "popular",
-    mainImage: "/Gallery/25.png",
+    mainImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715936433/Patnan%20Web/zfozoiidss9sziq7wpyq.png",
     moreImages: [
-      "/Gallery/25.png",
+      "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715936433/Patnan%20Web/zfozoiidss9sziq7wpyq.png",
     ],
     name: "KBC",
     address: "KBC in Machakos County, Kenya",

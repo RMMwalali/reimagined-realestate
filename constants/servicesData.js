@@ -1,7 +1,7 @@
 export const servicesData = [
   {
     id: 1,
-    image: "/Services/images/abc.jpg",
+    image: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1713254355/Patnan%20Web/uxmeovkfdr08ceprhjwb.jpg",
     title: "Land Sales with Title Deeds",
     icon: "/Services/icons/deed.png",
     shortDescription:
@@ -12,7 +12,7 @@ export const servicesData = [
   },
   {
     id: 2,
-    image: "/Services/images/joska.jpg",
+    image: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1713254511/Patnan%20Web/ojmltrd3alc4zp0wyo7e.jpg",
     title: "Property Consultation",
     icon: "/Services/icons/cloud-migration-icon.png",
     shortDescription:
@@ -23,7 +23,7 @@ export const servicesData = [
   },
   {
     id: 3,
-    image: "/Services/images/malaa.jpg",
+    image: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1713254493/Patnan%20Web/sf7a5z3bbz3xptci00wy.jpg",
     title: "Site Visits",
     icon: "/Services/icons/site-visit.png",
     shortDescription:
@@ -34,7 +34,7 @@ export const servicesData = [
   },
   {
     id: 4,
-    image: "/Services/images/real.jpg",
+    image: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1713254500/Patnan%20Web/egax5nyclsrgbqn9030h.jpg",
     title: "Property Documentation",
     icon: "/Services/icons/smart-team-icon.png",
     shortDescription: "Patnan Investment takes care of all documentation requirements related to property transactions. Our team handles the preparation and filing of necessary paperwork, streamlining the process and saving clients valuable time and effort.",
@@ -44,7 +44,7 @@ export const servicesData = [
   },
   {
     id: 5,
-    image: "/Services/images/title.jpg",
+    image: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1713254109/Patnan%20Web/e5s5kwfaxgnnwqqxvh63.jpg",
     title: "Investment Advisory",
     icon: "/Services/icons/quality-assurance-icon.png",
     shortDescription: "With years of experience in the real estate industry, our investment advisors provide expert guidance on maximizing returns and minimizing risks. Whether clients are looking for short-term gains or long-term appreciation, we offer tailored strategies to meet their investment objectives.",
@@ -54,7 +54,7 @@ export const servicesData = [
   },
   {
     id: 6,
-    image: "/Services/images/deeds.jpg",
+    image: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1713254479/Patnan%20Web/ivv74tktuviziw3moh02.jpg",
     title: "After-Sales Support",
     icon: "/Services/icons/product-design-icon.png",
     shortDescription: "Our commitment to client satisfaction extends beyond the transaction. We offer comprehensive after-sales support to address any post-purchase queries or concerns. Whether it's assistance with property maintenance or future investment planning, our team is always available to provide support and guidance.",

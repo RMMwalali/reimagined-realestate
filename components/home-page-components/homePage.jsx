@@ -48,7 +48,7 @@ const HomePage = () => {
 
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex bg-[url('/Services/images/land.png')] pt-36 pb-20 bg-top bg-no-repeat bg-cover ">
+      <div className="  flex bg-[url('https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715927952/Patnan%20Web/zurq67kc542vq6d1ulbg.png')] pt-36 pb-20 bg-top bg-no-repeat bg-cover ">
         <motion.div
           initial="initial"
           whileInView="animate"
@@ -394,7 +394,7 @@ const HomePage = () => {
           <div className="w-full max-lg:w-full h-full max-sm:max-h-[500px] ">
             <div className=" h-full w-full relative overflow-hidden rounded-lg">
               <img
-                src="/banner.png"
+                src="https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715937520/Patnan%20Web/brddrwksrvpc2bgag1k3.png"
                 className="absolute w-full h-full object-cover object-center "
                 alt=""
               />
