@@ -1,29 +1,56 @@
+import React, { useState } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 import Showcase2Card from "../components/showcase2-components/showcase2Card";
 import { showCase } from "../constants/showcase";
 import ShowCase2HeroSection from "../components/showcase2-components/showcase2HeroSecion";
-import { useEffect } from "react";
+
 
 const ShowCase2 = () => {
-  useEffect(() => {
-    document.title = "Gallery - Patnan";
-  }, []);
+  const [tabIndex, setTabIndex] = useState(0);
+
+  // Separate images into categories
+  const landImages = showCase.slice(0, 8);
+  const siteDevelopmentImages = showCase.slice(8);
+
   return (
     <div className="overflow-hidden">
       <ShowCase2HeroSection />
-      <div
-        style={{ maxWidth: 1200 }}
-        className="mx-auto gap-10 grid grid-rows-2 grid-cols-3 max-lg:grid-rows-3 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:grid-rows-6 p-10 max-md:px-5 "
-      >
-        {showCase.map((e, i) => {
-          return (
-            <Showcase2Card
-              href={`/projects/${e.id}`}
-              src={e.coverImage}
-              title={e.city}
-            />
-          );
-        })}
-      </div>
+      <Tabs selectedIndex={tabIndex} onSelect={index => setTabIndex(index)}>
+      <TabList className="flex justify-center p-2 bg-white rounded-lg">
+        <Tab className="mx-2 py-3 px-6 text-xl title-font font-extrabold text-white bg-red-500 border-red-500 border-2 rounded-t-lg hover:bg-white hover:border-red-500 hover:text-red-500">
+          Land
+        </Tab>
+        <Tab className="mx-2 py-3 px-6 text-xl title-font font-extrabold text-red-500 bg-white border-red-500 border-2 rounded-t-lg hover:text-white hover:bg-red-500 hover:border-red-500">
+          Site Developments
+        </Tab>
+      </TabList>
+        <TabPanel>
+          {/* Land images */}
+          <div className="grid grid-cols-3 gap-4">
+            {landImages.map((e, i) => (
+              <Showcase2Card
+                href={`/projects/${e.id}`}
+                src={e.coverImage}
+                title={e.city}
+              />
+            ))}
+          </div>
+        </TabPanel>
+
+        <TabPanel>
+          {/* Site Development images */}
+          <div className="grid grid-cols-3 gap-4">
+            {siteDevelopmentImages.map((e, i) => (
+              <Showcase2Card
+                href={`/projects/${e.id}`}
+                src={e.coverImage}
+                title={e.city}
+              />
+            ))}
+          </div>
+        </TabPanel>
+      </Tabs>
     </div>
   );
 };
