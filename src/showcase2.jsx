@@ -10,8 +10,8 @@ const ShowCase2 = () => {
   const [tabIndex, setTabIndex] = useState(0);
 
   // Separate images into categories
-  const landImages = showCase.slice(0, 8);
-  const siteDevelopmentImages = showCase.slice(8);
+  const landImages = showCase.slice(0, 12);
+  const siteDevelopmentImages = showCase.slice(12);
 
   return (
     <div className="overflow-hidden">
