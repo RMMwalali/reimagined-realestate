@@ -462,7 +462,7 @@ const HomePage = () => {
             >
               <ReviewCard
                 imgSrc={"/isaac.png"}
-                title={"Isaac Magu"}
+                title={"~ Isaac Magu"}
                 from={"Doctor"}
               />
             </motion.div>
@@ -472,7 +472,7 @@ const HomePage = () => {
             >
               <ReviewCard
                 imgSrc={"/carol.png"}
-                title={"Caroline Njeri"}
+                title={"~ Caroline Njeri"}
                 from={"Journalist"}
               />
             </motion.div>
@@ -482,7 +482,7 @@ const HomePage = () => {
             >
               <ReviewCard
                 imgSrc={"/doreen.png"}
-                title={"Doreen Wanjiku"}
+                title={"~ Doreen Wanjiku"}
                 from={"Entrepreneur"}
               />
             </motion.div>

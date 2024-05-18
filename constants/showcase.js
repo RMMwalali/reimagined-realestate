@@ -1,12 +1,12 @@
 export const showCase = [
   {
     id: 1,
-    city: "Joska",
+    city: "Malaa",
     shortDescription:
       "Karachi 'The City of Lights', the vibrant metropolis on the shores of the Arabian Sea, is a melting pot of diverse cultures, bustling with energy.",
     description:
       "Karachi: Karachi is the largest and most populous city in Pakistan, located on the southern coast of the country. It is known as the financial and economic hub of Pakistan, with a bustling metropolitan atmosphere. Karachi is home to a diverse population, vibrant markets, and a lively food scene. It also boasts beautiful beaches along the Arabian Sea, historical landmarks, and a thriving arts and entertainment scene.",
-    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715951892/Patnan%20Web/ykr3piptdyznajwr1qq6.jpg",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715936433/Patnan%20Web/zfozoiidss9sziq7wpyq.png",
     moreImages: [
       "/Project-showcase/Karachi/Street-view.jpg",
       "/Project-showcase/Karachi/City-view.jpg",
@@ -35,7 +35,7 @@ export const showCase = [
   },
   {
     id: 3,
-    city: "Malaa",
+    city: "Joska",
     shortDescription:
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
@@ -227,7 +227,7 @@ export const showCase = [
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
       "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
-    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715953471/15_aktrmk.jpg",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1716025212/12_rz9by5.png",
     moreImages: [
       "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
       "/Project-showcase/Lahore/Royal-fort.jpg",
@@ -244,7 +244,7 @@ export const showCase = [
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
       "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
-    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715954004/20_fwm9ue.png",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1716025865/14_dukacu.png",
     moreImages: [
       "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
       "/Project-showcase/Lahore/Royal-fort.jpg",
@@ -278,7 +278,7 @@ export const showCase = [
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
       "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
-    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715951902/Patnan%20Web/lirvre3h4sx8prppr8px.jpg",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715954004/20_fwm9ue.png",
     moreImages: [
       "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
       "/Project-showcase/Lahore/Royal-fort.jpg",
@@ -295,7 +295,7 @@ export const showCase = [
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
       "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
-    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715953469/19_ogir0m.jpg",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1716027186/3_xmq9jc.png",
     moreImages: [
       "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
       "/Project-showcase/Lahore/Royal-fort.jpg",
@@ -312,7 +312,7 @@ export const showCase = [
       "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
     description:
       "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
-    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715953472/18_xrybgj.jpg",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1716027346/2_mp3sa5.png",
     moreImages: [
       "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
       "/Project-showcase/Lahore/Royal-fort.jpg",
@@ -347,6 +347,57 @@ export const showCase = [
     description:
       "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
     coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715953492/14_mqzoh5.jpg",
+    moreImages: [
+      "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
+      "/Project-showcase/Lahore/Royal-fort.jpg",
+      "/Project-showcase/Lahore/Rose-garden-fc.jpg",
+      "/Project-showcase/Lahore/Walled-city.jpg",
+    ],
+    prevHref: "/projects/2",
+    nextHref: "/projects/4",
+  },
+  {
+    id: 22,
+    city: "KBC",
+    shortDescription:
+      "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
+    description:
+      "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715953471/15_aktrmk.jpg",
+    moreImages: [
+      "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
+      "/Project-showcase/Lahore/Royal-fort.jpg",
+      "/Project-showcase/Lahore/Rose-garden-fc.jpg",
+      "/Project-showcase/Lahore/Walled-city.jpg",
+    ],
+    prevHref: "/projects/2",
+    nextHref: "/projects/4",
+  },
+    {
+    id: 23,
+    city: "KBC",
+    shortDescription:
+      "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
+    description:
+      "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1716025210/13_w0geri.png",
+    moreImages: [
+      "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
+      "/Project-showcase/Lahore/Royal-fort.jpg",
+      "/Project-showcase/Lahore/Rose-garden-fc.jpg",
+      "/Project-showcase/Lahore/Walled-city.jpg",
+    ],
+    prevHref: "/projects/2",
+    nextHref: "/projects/4",
+  },
+  {
+    id: 24,
+    city: "KBC",
+    shortDescription:
+      "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
+    description:
+      "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
+    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1716025099/11_cwifkf.png",
     moreImages: [
       "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
       "/Project-showcase/Lahore/Royal-fort.jpg",
