@@ -337,13 +337,6 @@ const HomePage = () => {
             >
               We use Real Estate to show our appreciation of the world.
             </motion.h1>
-            <motion.p
-              variants={animationVariants.fadeLeft}
-              className="text-2xl"
-            >
-              We provide equity and debt capital globally to back projects that
-              make an impact.
-            </motion.p>
             <motion.div
               variants={animationVariants.fadeLeft}
               className="grid grid-cols-2 grid-rows-2 gap-10"
