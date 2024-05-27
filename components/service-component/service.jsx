@@ -33,7 +33,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           whileInView="animate"
           variants={animationVariants.zoomOut}
           viewport={{ once: true, amount: 0.2 }}
-          className="text-6xl max-md:text-5xl max-sm:text-4xl font-semibold z-10"
+          className="text-6xl max-md:text-5xl max-sm:text-4xl title-font font-semibold z-10"
         >
           {title}
         </motion.h1>
@@ -50,7 +50,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           viewport={{ once: true, amount: 0 }}
           className="w-2/3 max-lg:w-full flex flex-col gap-5"
         >
-          <h1 className="text-[46px] leading-none max-md:text-4xl font-semibold">
+          <h1 className="text-[46px] leading-none max-md:text-4xl font-semibold title-font">
           Patnan Investment's Comprehensive Services
           </h1>
           <div className="text-xl flex flex-col gap-3">
@@ -142,7 +142,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
           viewport={{ once: true, amount: 0.2 }}
           className="w-1/3 max-lg:w-full sticky top-36 questions-card p-8 gap-5 flex flex-col"
         >
-          <h1 className="text-center text-2xl font-semibold">
+          <h1 className="text-center text-2xl title-font font-semibold">
             Have Additional Questions?
           </h1>
           <div className="flex mt-2  gap-3 text-xl items-center">
@@ -161,7 +161,7 @@ const ServicePage = ({ id, title, breif, descr, imageSrc }) => {
             <div>
               <FaMapMarkerAlt className="text-red-500" />
             </div>
-            <p>Ground Floor, Saika, Near Full Gospel Church, Kangundo Road, Nairobi, Kenya</p>
+            <p>Solace near Saika Estate along Kangundo Road</p>
           </div>
           <Link
             to="/contact"

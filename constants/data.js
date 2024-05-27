@@ -2,9 +2,9 @@ export const rentHouses = [
   {
     id: 1,
     type: "featured",
-    mainImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715928417/Patnan%20Web/jw8vewly0miljmdudnsr.png",
+    mainImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715951845/Patnan%20Web/smsc5xcrncpiwahnzd8j.jpg",
     moreImages: [
-      "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715928417/Patnan%20Web/jw8vewly0miljmdudnsr.png",
+      "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715951845/Patnan%20Web/smsc5xcrncpiwahnzd8j.jpg",
     ],
     name: "Joska",
     address: "Joska in Machakos County, Kenya",

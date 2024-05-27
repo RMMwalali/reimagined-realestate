@@ -271,23 +271,23 @@ export const showCase = [
     prevHref: "/projects/2",
     nextHref: "/projects/4",
   },
-  {
-    id: 17,
-    city: "KBC",
-    shortDescription:
-      "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
-    description:
-      "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
-    coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715954004/20_fwm9ue.png",
-    moreImages: [
-      "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
-      "/Project-showcase/Lahore/Royal-fort.jpg",
-      "/Project-showcase/Lahore/Rose-garden-fc.jpg",
-      "/Project-showcase/Lahore/Walled-city.jpg",
-    ],
-    prevHref: "/projects/2",
-    nextHref: "/projects/4",
-  },
+  // {
+  //   id: 17,
+  //   city: "KBC",
+  //   shortDescription:
+  //     "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
+  //   description:
+  //     "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
+  //   coverImage: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto:best,f_auto/v1715954004/20_fwm9ue.png",
+  //   moreImages: [
+  //     "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
+  //     "/Project-showcase/Lahore/Royal-fort.jpg",
+  //     "/Project-showcase/Lahore/Rose-garden-fc.jpg",
+  //     "/Project-showcase/Lahore/Walled-city.jpg",
+  //   ],
+  //   prevHref: "/projects/2",
+  //   nextHref: "/projects/4",
+  // },
   {
     id: 18,
     city: "KBC",

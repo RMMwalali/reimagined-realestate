@@ -18,7 +18,7 @@ const FreeTrial = () => {
         backgroundImage: `url("/trial-bg.png")`,
       }}
     >
-      <h1 className="text-5xl max-sm:text-4xl font-semibold">
+      <h1 className="text-5xl max-sm:text-4xl font-semibold title-font">
         CONNECT WITH US INSTANTLY ON WHATSAPP FOR EXPERT ADVICE
       </h1>
       <Button

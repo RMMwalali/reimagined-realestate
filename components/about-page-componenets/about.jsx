@@ -54,7 +54,7 @@ const AboutPage = () => {
         >
           <div className="flex w-full gap-10 max-md:flex-col max-md:justify-center max-md:items-center max-md:text-center">
             <div className="flex flex-col items-start justify-between max-md:items-center">
-              <h1 className="text-5xl title-font font-bold w-max">
+              <h1 className="text-5xl title-font font-bold w-max leading-tight">
                 What we offer
               </h1>
               <Link onClick={scrollToTop} to={"/services"}>
